@@ -291,7 +291,7 @@
             <div class="hero-card">
                 <h1>سياسة الخصوصية</h1>
                 <p>تطبيق واما (WAMA) - لإدارة العدادات والفواتير والتحصيل المالي</p>
-                <span class="meta-tag">تاريخ آخر تحديث: 1 سبتمبر 2026</span>
+                <span class="meta-tag">تاريخ آخر تحديث: 13 نوفمبر 2026</span>
             </div>
 
             <div class="content-card">
@@ -303,7 +303,7 @@
                     أهلاً بك في تطبيق <strong>واما (WAMA)</strong>. نحن نولي خصوصية بياناتك اهتماماً فائقاً ونتعهد بحماية معلوماتك الشخصية. توضح سياسة الخصوصية هذه كيفية تعامل التطبيق مع البيانات والمعلومات عند استخدامك لخدماتنا لإدارة قراءات العدادات، إصدار الفواتير، وسندات القبض المالي.
                 </p>
                 <div class="badge-secure">
-                    ✅ <strong>الخصوصية أولاً:</strong> لا يقوم تطبيق "واما" ببيع، تأجير، أو مشاركة بياناتك الشخصية أو سجلات المستأجرين مع أي جهات خارجية أو أطراف تسويقية إطلاقاً.
+                    ✅ <strong>الخصوصية أولاً:</strong> لا يبيع واما بياناتك الشخصية أو سجلات المستأجرين ولا يؤجرها لأغراض التسويق. عند اختيار النسخ الاحتياطي السحابي، تُرسل نسخة من بيانات التطبيق إلى حساب Google Drive الذي تختاره، كما هو موضح أدناه.
                 </div>
             </div>
 
@@ -333,17 +333,30 @@
                 <ul>
                     <li><strong>صلاحية التخزين والملفات (Storage / Media):</strong> لإنشاء وتصدير ملفات الفواتير وسندات القبض والتقارير بصيغة <strong>PDF</strong> وحفظها على هاتفك لمشاركتها أو طباعتها، وكذلك لإنشاء واستعادة النسخ الاحتياطية.</li>
                     <li><strong>صلاحية الكاميرا (اختيارية):</strong> تُستخدم فقط في حال رغبتك بالتقاط صور لقراءات العدادات أو سندات التحويل البنكي لتوثيقها محلياً داخل التطبيق.</li>
-                    <li><strong>صلاحية الوصول للإنترنت (Network Access):</strong> تُستخدم للمهام التقنية الأساسية مثل التحقق من وجود تحديثات، أو مشاركة الفواتير عبر تطبيقات المراسلة (مثل WhatsApp).</li>
+                    <li><strong>صلاحية الوصول للإنترنت (Network Access):</strong> تُستخدم أيضًا عند اختيار ربط Google Drive ورفع نسخة احتياطية أو استعادتها. يظل استخدام وظائف التطبيق المحلية متاحًا دون ربط حساب Google.</li>
                 </ul>
             </div>
 
-            <div class="content-card">
+<div class="content-card" id="google-drive-ar">
+                <h2 class="section-title">النسخ الاحتياطي الاختياري إلى Google Drive</h2>
+                <p>يمكنك اختيار حساب Google والسماح لواما بحفظ نسخة احتياطية واستعادتها. ربط الحساب خاص بهذه الميزة ولا ينشئ حسابًا لتسجيل الدخول إلى واما. لا تُرفع نسخة إلى Drive إلا عند طلب النسخ الاحتياطي من التطبيق.</p>
+                <ul>
+                    <li><strong>البيانات:</strong> تُرفع نسخة من قاعدة بيانات واما، وقد تتضمن أسماء المستأجرين والعقارات والوحدات والعدادات والقراءات والفواتير وسندات القبض والإعدادات وصور القراءات المحفوظة. يستخدم التطبيق عنوان بريد حساب Google لإظهار الحساب المختار، ورموز التفويض لتنفيذ طلبات Drive؛ ولا يطلب كلمة مرور Google أو يحفظها.</li>
+                    <li><strong>الصلاحية والغرض:</strong> يستخدم واما النطاق <code>drive.appdata</code> لإنشاء نسخ التطبيق وعرضها وتنزيلها وحذف النسخ القديمة داخل مجلد بيانات التطبيق المخفي <code>appDataFolder</code>. لا تمنح هذه الصلاحية الوصول إلى ملفاتك الأخرى على Drive. تستخدم البيانات للنسخ والاستعادة فقط، وليس للإعلانات أو تدريب نماذج الذكاء الاصطناعي.</li>
+                    <li><strong>مكان التخزين والمشاركة:</strong> تنتقل النسخة مباشرة من جهازك إلى Google Drive في الحساب الذي تختاره، وتستعاد منه إلى جهازك. لا تمر النسخ عبر خادم تابع لفريق واما، ولا يطّلع الفريق عليها من خلال هذه الميزة. تخضع معالجة Google لبيانات الخدمة أيضًا إلى <a href="https://policies.google.com/privacy">سياسة خصوصية Google</a>.</li>
+                    <li><strong>الاحتفاظ والحذف:</strong> بعد رفع نسخة جديدة، يحاول التطبيق الاحتفاظ بأحدث خمس نسخ وحذف الأقدم؛ وقد يتعذر التنظيف عند حدوث خطأ. يمكنك حذف بيانات واما المخفية من إعدادات Google Drive ضمن إدارة التطبيقات. لا تظهر هذه النسخ ضمن ملفات «ملفاتي» المعتادة. حذف التطبيق من الهاتف أو حذف سجل محلي لا يحذف تلقائيًا النسخ الموجودة في Drive.</li>
+                    <li><strong>التحكم:</strong> يمكنك إلغاء وصول واما من <a href="https://myaccount.google.com/connections">اتصالات حساب Google</a> أو تغيير الحساب من شاشة النسخ الاحتياطي. إلغاء التفويض يوقف الوصول اللاحق، ولا يُعد طلبًا لحذف النسخ المحفوظة؛ احذفها من Drive إذا رغبت. يمكنك استخدام النسخ المحلي دون Google Drive.</li>
+                </ul>
+                <p>يقتصر استخدام بيانات Google على ميزة النسخ الاحتياطي والاستعادة التي يختارها المستخدم. يلتزم واما عند استخدام هذه البيانات بـ <a href="https://developers.google.com/terms/api-services-user-data-policy">سياسة بيانات المستخدم لخدمات Google API</a>، بما في ذلك متطلبات الاستخدام المحدود.</p>
+            </div>
+
+                        <div class="content-card">
                 <div class="section-title">
                     <span class="section-icon">🔒</span>
                     <span>4. حماية وأمن البيانات</span>
                 </div>
                 <p>
-                    نحن نطبق أعلى معايير الأمان لحماية بياناتك من الوصول غير المصرح به أو التغيير أو الفقدان. لا يتم رفع سجلات فواتيرك أو أسماء مستأجريك إلى خوادم عامة مجهولة، بل تظل محمية داخل البيئة المعزولة للتطبيق (App Sandbox).
+                    تُحفظ بيانات العمل محليًا داخل مساحة التطبيق. عند طلب النسخ الاحتياطي إلى Google Drive، تُنقل النسخة إلى Google عبر اتصال HTTPS. ملفات النسخ الاحتياطي تحتوي على بياناتك، لذا احمِ جهازك وحساب Google وأي نسخة تصدّرها. لا ندّعي تشفير النسخة من طرف إلى طرف أو إضافة تشفير خاص لملف النسخة.
                 </p>
             </div>
 
@@ -385,7 +398,7 @@
                 <p>إذا كان لديك أي أسئلة، استفسارات، أو اقتراحات بخصوص سياسة الخصوصية أو التطبيق، يسعدنا تواصلك معنا عبر:</p>
                 <div class="contact-box">
                     <p><strong>فريق دعم تطبيق واما (WAMA Support):</strong></p>
-                    <p>📧 البريد الإلكتروني: <a href="mailto:support@wama-app.com">support@wama-app.com</a></p>
+                    <p>📧 البريد الإلكتروني: <a href="mailto:eng.ahmedalmosawa@gmail.com">eng.ahmedalmosawa@gmail.com</a></p>
                     <p>📱 تطبيق: واما - إدارة العدادات والفواتير</p>
                 </div>
             </div>
@@ -395,7 +408,7 @@
             <div class="hero-card">
                 <h1>Privacy Policy</h1>
                 <p>WAMA App - Utility Meter, Invoicing & Billing Manager</p>
-                <span class="meta-tag">Last Updated: September 1, 2026</span>
+                <span class="meta-tag">Last Updated: November 13, 2026</span>
             </div>
 
             <div class="content-card">
@@ -421,7 +434,7 @@
                     <li><strong>Property & Unit Details:</strong> Building names, apartment/unit numbers, and tenant names.</li>
                     <li><strong>Meter Readings:</strong> Water and electricity meter readings (sub-meters and master meters), billing cycles, and tariff settings.</li>
                     <li><strong>Financial & Invoice Records:</strong> Issued invoices, dues, service fees, and payment vouchers (Cash / Bank Transfers).</li>
-                    <li><strong>Local Backup Files:</strong> Encrypted backup archives stored on your device storage for data restoration.</li>
+                    <li><strong>Local Backup Files:</strong> Backup files stored on your device for data restoration.</li>
                 </ul>
                 <div class="badge-info">
                     💾 <strong>Local Storage:</strong> All operational data is stored locally within a secure SQLite database on your device, remaining under your full control.
@@ -437,17 +450,30 @@
                 <ul>
                     <li><strong>Storage / Media Permission:</strong> Required to generate, save, and export <strong>PDF</strong> invoices, receipts, and reports to your device storage for printing and sharing.</li>
                     <li><strong>Camera Permission (Optional):</strong> Used only if you choose to snap photos of physical meter dials or payment transfer slips for local attachment.</li>
-                    <li><strong>Internet Access:</strong> Used for general framework services, update checks, and initiating shares via messaging apps (e.g., WhatsApp).</li>
+                    <li><strong>Internet Access:</strong> Also used when you choose to connect Google Drive, upload a backup, or restore one. Local app features remain available without connecting a Google account.</li>
                 </ul>
             </div>
 
-            <div class="content-card">
+<div class="content-card" id="google-drive-en">
+                <h2 class="section-title">Optional Google Drive Backup</h2>
+                <p>You may choose a Google account and authorize WAMA to back up and restore app data. This connection is for backups; it does not create a WAMA sign-in account. A backup is uploaded to Drive only when you request it in the app.</p>
+                <ul>
+                    <li><strong>Data:</strong> WAMA uploads a database snapshot that may contain tenant names, properties, units, meters, readings, invoices, payment records, settings, and saved meter-reading photos. The app uses your Google account email to display the selected account and authorization tokens to make Drive requests. It does not request or store your Google password.</li>
+                    <li><strong>Permission and purpose:</strong> WAMA uses <code>drive.appdata</code> to create, list, download, and delete older app backups in its hidden <code>appDataFolder</code>. This permission does not grant access to your other Drive files. Data is used only for backup and restoration, not advertising or AI model training.</li>
+                    <li><strong>Storage and sharing:</strong> Backups go directly from your device to Google Drive in your selected account and are restored directly to your device. They do not pass through a WAMA team server, and this feature does not give the team access to them. Google’s service processing is also covered by the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</li>
+                    <li><strong>Retention and deletion:</strong> After an upload, the app attempts to retain the five newest backups and delete older ones; cleanup may fail if an error occurs. You can delete WAMA’s hidden app data through Google Drive settings under Manage apps. These backups do not appear in the ordinary My Drive file list. Uninstalling WAMA from your phone or deleting a local record does not automatically delete existing Drive backups.</li>
+                    <li><strong>Your choices:</strong> You can revoke WAMA’s access through <a href="https://myaccount.google.com/connections">Google Account connections</a> or change accounts on the backup screen. Revoking authorization stops subsequent access; it is not a request to delete stored backups. Delete them in Drive if desired. Local backup remains available without Google Drive.</li>
+                </ul>
+                <p>Google user data is used only for the backup and restore feature you choose. WAMA’s use of this data follows the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including its Limited Use requirements.</p>
+            </div>
+
+                        <div class="content-card">
                 <div class="section-title">
                     <span class="section-icon">🔒</span>
                     <span>4. Data Security</span>
                 </div>
                 <p>
-                    We implement standard security measures to protect your information. Your meter records and billing information are sandboxed on your device and are not uploaded to unauthorized public databases.
+                    Operational data is stored in the app’s local storage. When you request a Google Drive backup, the backup is sent to Google over HTTPS. Backups contain your data: protect your device, Google account, and any exported copies. We do not claim end-to-end encryption or additional app-level encryption of backup files.
                 </p>
             </div>
 
@@ -489,7 +515,7 @@
                 <p>If you have any questions, feedback, or concerns regarding this Privacy Policy, please contact our support team:</p>
                 <div class="contact-box">
                     <p><strong>WAMA Support Team:</strong></p>
-                    <p>📧 Email: <a href="mailto:support@wama-app.com">support@wama-app.com</a></p>
+                    <p>📧 Email: <a href="mailto:eng.ahmedalmosawa@gmail.com">eng.ahmedalmosawa@gmail.com</a></p>
                     <p>📱 Application: WAMA - Utility Meter & Billing Manager</p>
                 </div>
             </div>
